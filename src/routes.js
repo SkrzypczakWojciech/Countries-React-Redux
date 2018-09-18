@@ -5,6 +5,7 @@ import Home from './presentational/home.component';
 import Contact from './presentational/contact.component';
 import CountryFlagContainer from './containers/flag-container.component';
 import CountryDetailsContainer from './containers/country-detail-container.component';
+import ContinentsContainer from './containers/continents-container.component';
 
 
 export default (
@@ -15,5 +16,6 @@ export default (
             <Route path='country/:id' component={CountryDetailsContainer}/>
         </Route>
         <Route path='contact' component={Contact}/>
+        <Route path='continents' component={ContinentsContainer}/>
     </Route>
 );
