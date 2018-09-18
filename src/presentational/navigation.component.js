@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/css/bootstrap-theme.css';
+
 
 const Navigation = props => (
     <div>
@@ -10,8 +10,8 @@ const Navigation = props => (
                 <div className="navbar-header">
                     <Link className="navbar-brand" to="/">Państwa.js</Link>
                 </div>
-                <div className="collapse navbar-collapse">
-                    <ul className="nav navbar-nav">
+                <div>
+                    <ul>
                         <li><Link to="/countries">Countries</Link></li>
                         <li><Link to="/continents">Continents</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
